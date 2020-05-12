@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JWT.Token</name>
+    </assembly>
+    <members>
+        <member name="F:JWT.Token.Const.SecurityKey">
+            <summary>
+            这里为了演示，写死一个密钥。实际生产环境可以从配置文件读取,这个是用网上工具随便生成的一个密钥
+            </summary>
+        </member>
+        <member name="T:JWT.Token.SwaggerServiceExtensions">
+            <summary>
+            swagger extension
+            </summary>
+        </member>
+        <member name="M:JWT.Token.SwaggerServiceExtensions.AddSwaggerDocumentation(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            add swagger documentation
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:JWT.Token.SwaggerServiceExtensions.UseSwaggerDocumentation(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            swagger documentation
+            </summary>
+            <param name="app"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
